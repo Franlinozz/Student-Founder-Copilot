@@ -1,0 +1,41 @@
+{
+  "name": "student-founder-copilot",
+  "version": "0.1.0",
+  "description": "Telegram agent for College.xyz track",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "tsx src/bot.ts",
+    "build": "tsc",
+    "start": "node dist/bot.js",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:generate": "prisma generate",
+    "pack:generate": "tsx scripts/generate-pack.ts idea.txt",
+    "anchor": "tsx scripts/anchor-hash.ts",
+    "assets:export": "tsx scripts/export-logos.ts"
+  },
+  "keywords": [
+    "telegram",
+    "agent",
+    "college.xyz"
+  ],
+  "author": "Johnnisco",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^5.18.0",
+    "dotenv": "^17.3.1",
+    "ethers": "^6.16.0",
+    "prisma": "^5.18.0",
+    "sharp": "^0.34.5",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

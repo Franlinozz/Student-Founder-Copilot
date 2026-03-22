@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Devpost Student Build Sprint",
+    "category": "hackathon",
+    "hostedBy": "Devpost",
+    "deadline": "2026-03-28",
+    "tags": ["remote", "student", "ai"],
+    "url": "https://devpost.com/hackathons"
+  },
+  {
+    "title": "DoraHacks Bounty Board",
+    "category": "bounty",
+    "hostedBy": "DoraHacks",
+    "deadline": null,
+    "tags": ["web3", "bounty", "remote"],
+    "url": "https://dorahacks.io/bounties"
+  },
+  {
+    "title": "AngelList Campus Fellowships",
+    "category": "internship",
+    "hostedBy": "AngelList",
+    "deadline": null,
+    "tags": ["startup", "internship", "paid"],
+    "url": "https://angel.co"
+  }
+]

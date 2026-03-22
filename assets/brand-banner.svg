@@ -1,0 +1,20 @@
+<svg width="1024" height="512" viewBox="0 0 1024 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#050910" />
+      <stop offset="100%" stop-color="#0F1E2F" />
+    </linearGradient>
+    <linearGradient id="pulse" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#12CBC4" />
+      <stop offset="100%" stop-color="#45AAF2" />
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="512" rx="40" fill="url(#bg)" />
+  <circle cx="230" cy="256" r="180" fill="#081727" stroke="#12CBC4" stroke-width="6" opacity="0.9" />
+  <circle cx="230" cy="256" r="120" fill="url(#pulse)" opacity="0.85" />
+  <rect x="130" y="310" width="200" height="100" rx="24" fill="#050910" opacity="0.75" stroke="#12CBC4" stroke-width="4" />
+  <text x="230" y="355" font-family="'Inter', 'Segoe UI', sans-serif" font-size="48" fill="#FFFFFF" text-anchor="middle" font-weight="600">SFC</text>
+  <text x="520" y="220" font-family="'Inter', 'Segoe UI', sans-serif" font-size="60" fill="#FFFFFF" font-weight="600">Student Founder Copilot</text>
+  <text x="520" y="280" font-family="'Inter', 'Segoe UI', sans-serif" font-size="28" fill="#9EE5E2">Verify · Scout · Ship · Anchor</text>
+  <text x="520" y="330" font-family="'Inter', 'Segoe UI', sans-serif" font-size="20" fill="#6D8FA6">Built for College.xyz students · AI-first + on-chain proof</text>
+</svg>

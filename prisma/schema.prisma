@@ -1,0 +1,38 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model StudentVerification {
+  id              String   @id @default(cuid())
+  telegramId      String
+  telegramHandle  String?
+  fullName        String
+  schoolName      String
+  schoolEmail     String
+  graduationYear  Int
+  program         String?
+  yearsLeft       Int?
+  idImageUrl      String?
+  ideaSummary     String?
+  consentGranted  Boolean  @default(false)
+  proofHash       String?
+  onchainTx       String?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  packs           SubmissionPack[]
+}
+
+model SubmissionPack {
+  id               String   @id @default(cuid())
+  studentId        String
+  student          StudentVerification @relation(fields: [studentId], references: [id])
+  roughIdea        String
+  refinedMarkdown  String
+  summaryHash      String?
+  createdAt        DateTime @default(now())
+}
