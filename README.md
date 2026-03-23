@@ -1,5 +1,7 @@
 # Student Founder Copilot (College.xyz Track)
 
+Student Founder Copilot is a Telegram-based AI assistant that helps students turn rough ideas into real hackathon submissions. It verifies enrollment, surfaces relevant opportunities, shapes ideas into full project packs, and anchors proof-of-work on Base.
+
 Telegram-native agent that helps verified students:
 
 1. **Prove enrollment** — collects College.xyz-required fields, hashes the payload, and anchors it on Base.
