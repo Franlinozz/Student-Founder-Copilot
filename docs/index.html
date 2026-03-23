@@ -77,11 +77,12 @@
     }
     .screenshots {
       display: grid;
-      gap: 1rem;
+      gap: 1.25rem;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
       justify-items: center;
     }
     .screenshots img {
-      width: min(100%, 480px);
+      width: min(100%, 280px);
       border-radius: 18px;
       border: 1px solid rgba(255,255,255,0.08);
       box-shadow: 0 15px 35px rgba(0,0,0,0.35);
