@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Founder Copilot</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #050910;
+      --card: #0f1e33;
+      --accent: #12cbc4;
+      --text: #f5fbff;
+      --muted: #9ee5e2;
+    }
+    body {
+      margin: 0;
+      font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 3rem 1.5rem 2rem;
+    }
+    header img {
+      max-width: 320px;
+      border-radius: 16px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+    }
+    h1 {
+      margin: 1rem 0 0.5rem;
+      font-size: clamp(2rem, 4vw, 3rem);
+    }
+    p.lede {
+      max-width: 720px;
+      margin: 0 auto;
+      color: var(--muted);
+      font-size: 1.1rem;
+    }
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 1.5rem 4rem;
+      display: grid;
+      gap: 2rem;
+    }
+    section {
+      background: var(--card);
+      border-radius: 20px;
+      padding: 2rem;
+      border: 1px solid rgba(18,203,196,0.25);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+    }
+    h2 {
+      margin-top: 0;
+      font-size: 1.5rem;
+    }
+    ul.features {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: 1rem;
+    }
+    ul.features li {
+      background: rgba(255,255,255,0.02);
+      border-radius: 14px;
+      padding: 1rem;
+      border: 1px solid rgba(255,255,255,0.06);
+    }
+    ul.features li strong {
+      color: var(--accent);
+      display: block;
+      margin-bottom: 0.35rem;
+    }
+    .screenshots {
+      display: grid;
+      gap: 1rem;
+    }
+    .screenshots img {
+      width: 100%;
+      border-radius: 18px;
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+    .cta {
+      text-align: center;
+    }
+    .cta a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      margin: 0.4rem;
+      padding: 0.85rem 1.6rem;
+      border-radius: 999px;
+      background: var(--accent);
+      color: #031016;
+      text-decoration: none;
+      font-weight: 600;
+      box-shadow: 0 10px 25px rgba(18,203,196,0.35);
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem 3rem;
+      color: #7aa3a1;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://raw.githubusercontent.com/Franlinozz/Student-Founder-Copilot/main/assets/logo-256.png" alt="Student Founder Copilot logo" />
+    <h1>Student Founder Copilot</h1>
+    <p class="lede">A calm, professional Telegram agent that helps real students verify, plan, and ship hackathon submissions in minutes — built for the College.xyz track at The Synthesis.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>What it handles</h2>
+      <ul class="features">
+        <li>
+          <strong>🪪 Verification intake</strong>
+          Secure flow that captures name, school email, graduation year, and ID photo — then hashes + anchors proof on Base.
+        </li>
+        <li>
+          <strong>🧭 Opportunity scout</strong>
+          Curated JSON feed of hackathons, bounties, and internships students can filter inside Telegram.
+        </li>
+        <li>
+          <strong>🧠 Idea → pack</strong>
+          Prompt templates that turn rough ideas into submission-ready briefs with problem, solution, milestones, and hash.
+        </li>
+        <li>
+          <strong>⛓️ Base anchoring</strong>
+          CLI + bot command to anchor verification hashes (tx 0xbda3987…539c0 for Nonso’s proof).
+        </li>
+      </ul>
+    </section>
+
+    <section class="screenshots">
+      <h2>Snapshots</h2>
+      <img src="https://raw.githubusercontent.com/Franlinozz/Student-Founder-Copilot/main/assets/verification.jpg" alt="Verification hash screenshot" />
+      <img src="https://raw.githubusercontent.com/Franlinozz/Student-Founder-Copilot/main/assets/opportunities.jpg" alt="Opportunity list screenshot" />
+      <img src="https://raw.githubusercontent.com/Franlinozz/Student-Founder-Copilot/main/assets/idea-pack.jpg" alt="Idea pack screenshot" />
+    </section>
+
+    <section class="cta">
+      <h2>Links</h2>
+      <a href="https://synthesis.devfolio.co/projects/student-founder-copilot-20c0" target="_blank" rel="noopener">View Synthesis Submission →</a>
+      <a href="https://github.com/Franlinozz/Student-Founder-Copilot" target="_blank" rel="noopener">View GitHub Repo →</a>
+      <a href="https://www.moltbook.com/p/6e1b3d2d-9114-4610-b336-7e3b0c9d5422" target="_blank" rel="noopener">Read Moltbook Post →</a>
+    </section>
+  </main>
+
+  <footer>
+    Built by Johnnisco &amp; Nonso for The Synthesis × College.xyz track · 2026
+  </footer>
+</body>
+</html>
